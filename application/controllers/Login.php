@@ -46,7 +46,6 @@ class Login extends CI_Controller
 	public function berhasillogin()
 	{
 		$this->session->set_flashdata('msg', '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button>Welcome <b>' . $this->session->userdata('user_nama') . '</b> Selamat bekerja.</div>');
-		$this->load->view('layouts/v_main');
 		redirect('main');
 	}
 
