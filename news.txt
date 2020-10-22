@@ -1,0 +1,8 @@
+admin => email: a@g.com 
+password: a
+
+employee => email: e@g.com 
+password: e
+
+manager => email: m@g.com 
+password: m
